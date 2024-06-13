@@ -3,11 +3,9 @@ import CustomAppBar from "../components/CustomAppBar";
 import Slider from "../components/Slider";
 import { StepFooter } from "../components/StepFooter";
 import { useSteps } from "../hooks/useSteps";
-// import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
 
 export default function Main() {
-	// const { width, height } = useWindowSize()
 	const {
 		activeStep,
 		handleBack,
