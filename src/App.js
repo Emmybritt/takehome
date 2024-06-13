@@ -1,5 +1,5 @@
 import './App.css';
-import {createTheme, ScopedCssBaseline, ThemeProvider} from "@mui/material";
+import { createTheme, ScopedCssBaseline, ThemeProvider } from "@mui/material";
 import CustomRoutes from "./CustomRoutes";
 
 const theme = createTheme({
@@ -9,6 +9,7 @@ const theme = createTheme({
   palette: {
     primary: {
       main: '#fff',
+      border: "#0075FF"
     },
     secondary: {
       main: '#484848',
@@ -23,6 +24,7 @@ const theme = createTheme({
       light: '#eeeeee',
       lighter: '#f5f5f5',
       ultralight: '#fafafa',
+      text: "#FF0000"
     },
   },
   spacing: 8,
@@ -31,10 +33,10 @@ const theme = createTheme({
 
 function App() {
   return (
-      <ThemeProvider theme={theme}>
-        <ScopedCssBaseline>
-          <CustomRoutes />
-        </ScopedCssBaseline>
+    <ThemeProvider theme={theme}>
+      <ScopedCssBaseline>
+        <CustomRoutes />
+      </ScopedCssBaseline>
     </ThemeProvider>
   );
 }

@@ -1,0 +1,21 @@
+textarea {
+	width: 100%;
+	min-height: 100px;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	box-sizing: border-box;
+}
+
+/* Hover effect */
+textarea:hover {
+	border-color: #888;
+}
+
+/* Focus effect */
+textarea:focus {
+	outline: none;
+	border: 1px solid #e1e1e1;
+}
